@@ -1,0 +1,6 @@
+{
+  "name": "GoldPulse: Numerical Analysis & Forex Correlation",
+  "description": "An advanced gold price analysis tool featuring linear, Lagrange, and cubic spline interpolation, uncertainty quantification (CI/PI), and correlation analysis with DXY/EUR-USD indices.",
+  "requestFramePermissions": [],
+  "majorCapabilities": []
+}
