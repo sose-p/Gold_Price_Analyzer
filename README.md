@@ -1,20 +1,33 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Gold Price Analyzer
 
-# Run and deploy your AI Studio app
+## Project Overview
+This project is a Gold Price Analysis system that uses numerical interpolation techniques to approximate and analyze gold price trends over selected intervals.
 
-This contains everything you need to run your app locally.
+The system allows users to select a specific range of data from a graph and then applies multiple mathematical methods to approximate the curve.
 
-View your app in AI Studio: https://ai.studio/apps/bf2f360f-395e-4b24-8d50-356430394147
+## Methods Used
+The project implements and compares the following interpolation techniques:
 
-## Run Locally
+- Linear Interpolation
+- Lagrange Interpolation
+- Cubic Spline Interpolation
 
-**Prerequisites:**  Node.js
+## Functionality
+- User selects a time interval from gold price data
+- The system computes approximations using different methods
+- Results are compared visually and numerically
+- The system recommends the most suitable approximation method based on accuracy and behavior
 
+## Goal of the Project
+To demonstrate how different numerical methods can be used to approximate real-world financial data and to analyze their accuracy and suitability for forecasting trends.
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## Technologies
+- C#
+- .NET (if applicable)
+- Data visualization tools (if applicable)
+
+## Note
+This project was developed as part of a university coursework assignment focusing on numerical methods and data analysis.
+
+## Repository
+https://github.com/sose-p/Gold_Price_Analyzer
